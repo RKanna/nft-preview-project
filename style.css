@@ -185,3 +185,14 @@ hr {
 .eth-img:hover .hover-img {
   display: block;
 }
+.hover-img-anchor:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92%;
+  height: 98%;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 1rem;
+  opacity: 0.5;
+}
