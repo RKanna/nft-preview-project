@@ -43,7 +43,7 @@ body {
   left: 1rem;
 }
 .ether {
-  width: 85%;
+  width: 92%;
   height: auto;
   border-radius: 1rem;
 }
@@ -53,6 +53,7 @@ body {
   justify-content: center;
   margin-top: -12rem;
   position: absolute;
+  margin-left: 1.3rem;
 }
 .content-section {
   width: 100%;
@@ -125,4 +126,62 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid hsl(215, 32%, 27%);
+}
+.profile {
+  width: 10%;
+  height: auto;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.profile-photo-section {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  margin-top: 4.8rem;
+  position: absolute;
+  left: 1.2rem;
+}
+.profile-para {
+  position: relative;
+  top: 7px;
+  width: 20rem;
+  margin-left: 1rem;
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+}
+.text-anchor {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.text-anchor:hover {
+  color: hsl(178, 100%, 50%);
+}
+.anchor-for-title {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.anchor-for-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+.main-img-anchor:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92%;
+  height: 98%;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 1rem;
+  opacity: 0.5;
+}
+.hover-img {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+.eth-img:hover .hover-img {
+  display: block;
 }
