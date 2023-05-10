@@ -81,3 +81,48 @@ body {
   margin-right: auto;
   text-align: start;
 }
+
+.ether-mini {
+  width: 3%;
+  height: auto;
+}
+.ether-mini-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  position: absolute;
+  left: 1.3rem;
+}
+.para-for-icon {
+  margin-left: 0.5rem;
+  width: 20rem;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  width: 5%;
+  height: auto;
+}
+.clock-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  position: absolute;
+  left: 11rem;
+}
+.para-for-clock {
+  margin-left: 0.5rem;
+  width: 20rem;
+  color: hsl(215, 51%, 70%);
+}
+hr {
+  position: relative;
+  top: 4rem;
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid hsl(215, 32%, 27%);
+}
