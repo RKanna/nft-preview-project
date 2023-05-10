@@ -196,3 +196,20 @@ hr {
   border-radius: 1rem;
   opacity: 0.5;
 }
+
+@media screen and (min-width: 376px) {
+  body {
+    min-width: 100vh;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  body {
+    min-width: 100vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    min-width: 100vh;
+  }
+}
