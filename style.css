@@ -32,6 +32,8 @@ body {
   position: relative;
   top: 0;
   left: 0;
+  box-shadow: 20px 20px 60px rgba(12, 25, 44, 255),
+    -20px -20px 60px rgba(12, 25, 44, 255);
 }
 .box-child2 {
   width: 18rem;
@@ -200,6 +202,12 @@ hr {
 @media screen and (min-width: 376px) {
   body {
     min-width: 100vh;
+  }
+  .box {
+    max-width: 100vh;
+  }
+  .box-parent {
+    max-width: 100vh;
   }
 }
 
