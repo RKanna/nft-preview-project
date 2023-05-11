@@ -203,12 +203,6 @@ hr {
   body {
     min-width: 100vh;
   }
-  .box {
-    max-width: 100vh;
-  }
-  .box-parent {
-    max-width: 100vh;
-  }
 }
 
 @media screen and (min-width: 414px) {
